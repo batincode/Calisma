@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{53B1F1B1-B06F-4BC8-9783-F140FED8EC15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E9EC1D8D-E03D-4E43-9619-FA4BCD388B76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{156470C6-8F21-4930-B08D-2A5D67A2B6F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalismaApi.Application", "Core\CalismaApi.Application\CalismaApi.Application.csproj", "{217BBEC2-1770-4B81-974B-8DEDAE2EA236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalismaApi.Domain", "Core\CalismaApi.Domain\CalismaApi.Domain.csproj", "{45997278-36B9-4F75-9513-93BDB10E709E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalismaApi.Infrastructure", "Infrastructure\CalismaApi.Infrastructure\CalismaApi.Infrastructure.csproj", "{0305C20A-811E-4804-AF6C-A1542ADA108C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalismaApi.Persistence", "Presentation\CalismaApi.Presentation\CalismaApi.Persistence.csproj", "{2EB410FB-331F-4357-9814-6D81CD80D7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalismaApi.Api", "Presentation\CalismaApi.Api\CalismaApi.Api.csproj", "{9F137AC0-E2F9-4DFB-A7ED-FF2E2D27568E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217BBEC2-1770-4B81-974B-8DEDAE2EA236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217BBEC2-1770-4B81-974B-8DEDAE2EA236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217BBEC2-1770-4B81-974B-8DEDAE2EA236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217BBEC2-1770-4B81-974B-8DEDAE2EA236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45997278-36B9-4F75-9513-93BDB10E709E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45997278-36B9-4F75-9513-93BDB10E709E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45997278-36B9-4F75-9513-93BDB10E709E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45997278-36B9-4F75-9513-93BDB10E709E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0305C20A-811E-4804-AF6C-A1542ADA108C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0305C20A-811E-4804-AF6C-A1542ADA108C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0305C20A-811E-4804-AF6C-A1542ADA108C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0305C20A-811E-4804-AF6C-A1542ADA108C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB410FB-331F-4357-9814-6D81CD80D7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB410FB-331F-4357-9814-6D81CD80D7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB410FB-331F-4357-9814-6D81CD80D7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB410FB-331F-4357-9814-6D81CD80D7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F137AC0-E2F9-4DFB-A7ED-FF2E2D27568E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F137AC0-E2F9-4DFB-A7ED-FF2E2D27568E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F137AC0-E2F9-4DFB-A7ED-FF2E2D27568E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F137AC0-E2F9-4DFB-A7ED-FF2E2D27568E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{217BBEC2-1770-4B81-974B-8DEDAE2EA236} = {53B1F1B1-B06F-4BC8-9783-F140FED8EC15}
+		{45997278-36B9-4F75-9513-93BDB10E709E} = {53B1F1B1-B06F-4BC8-9783-F140FED8EC15}
+		{0305C20A-811E-4804-AF6C-A1542ADA108C} = {E9EC1D8D-E03D-4E43-9619-FA4BCD388B76}
+		{2EB410FB-331F-4357-9814-6D81CD80D7DF} = {E9EC1D8D-E03D-4E43-9619-FA4BCD388B76}
+		{9F137AC0-E2F9-4DFB-A7ED-FF2E2D27568E} = {156470C6-8F21-4930-B08D-2A5D67A2B6F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6117227-B187-4339-A50E-CC2DEC555917}
+	EndGlobalSection
+EndGlobal
